@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+    <title>Application for New/Replacement ID</title>
+	<script src="script.js"></script>
+</head>
+<body>
+    <h1>Application for New/Replacement ID</h1>
+    <form action="#" method="post">
+        <h2>ID Type</h2>
+        <label><input type="checkbox" name="id-type" value="Transferee"> Transferee</label>
+        <label><input type="checkbox" name="id-type" value="Shiftee"> Shiftee</label>
+        <label><input type="checkbox" name="id-type" value="LHS"> LHS</label>
+        <label><input type="checkbox" name="id-type" value="SHS"> SHS</label>
+        <label><input type="checkbox" name="id-type" value="Graduate School"> Graduate School</label>
+        <label><input type="checkbox" name="id-type" value="Late Filling"> Late Filling</label>
+        <label><input type="checkbox" name="id-type" value="Damaged"> Damaged</label>
+        <label><input type="checkbox" name="id-type" value="Undergrad"> Undergrad</label>
+        <label><input type="checkbox" name="id-type" value="Open University"> Open University</label>
+        <label><input type="checkbox" name="id-type" value="Old ID"> Old ID</label>
+        <label><input type="checkbox" name="id-type" value="Correction of Entry"> Correction of Entry</label>
+        <label><input type="checkbox" name="id-type" value="College of Law"> College of Law</label>
+        <label><input type="checkbox" name="id-type" value="Institute of Technology"> Institute of Technology</label>
+
+        <h2>ID Student Information</h2>
+        <label for="student-number">Student Number:</label>
+        <input type="text" id="student-number" name="student-number" required>
+
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first-name" required>
+
+        <label for="middle-name">Middle Name:</label>
+        <input type="text" id="middle-name" name="middle-name">
+
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last-name" required>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female" required>
+        <label for="female">Female</label>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <label for="college">College:</label>
+        <input type="text" id="college" name="college" required>
+
+        <label for="course">Course, Yr. & Section:</label>
+        <input type="text" id="course" name="course" required>
+
+        <label for="home-address">Home Address:</label>
+        <input type="text" id="home-address" name="home-address" required>
+
+        <label for="phone">Phone/Mobile No.:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <h2>In case of emergency, Contact Person </h2>
+        <label for="emergency-name">Complete Name:</label>
+        <input type="text" id="emergency-name" name="emergency-name" required>
+
+        <label for="emergency-phone">Phone/Mobile No.:</label>
+        <input type="tel" id="emergency-phone" name="emergency-phone" required>
+
+        <label for="emergency-address">Address:</label>
+        <input type="text" id="emergency-address" name="emergency-address" required>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
